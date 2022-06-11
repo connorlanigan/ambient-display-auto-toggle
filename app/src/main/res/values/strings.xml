@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ambient Display Auto Toggle</string>
+    <string name="service_description">
+        This service allows the Ambient Display Auto Toggle app to react
+        to changes in the power supply even when the app is not running.
+    </string>
+</resources>

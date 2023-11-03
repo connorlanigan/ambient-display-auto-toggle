@@ -12,6 +12,6 @@ import android.content.Intent
 class BootReceiver : BroadcastReceiver() {
     @SuppressLint("UnsafeProtectedBroadcastReceiver")
     override fun onReceive(context: Context, intent: Intent?) {
-        registerPowerEventBroadcastReceiver(context)
+        registerPowerEventBroadcastReceiver(context.applicationContext)
     }
 }

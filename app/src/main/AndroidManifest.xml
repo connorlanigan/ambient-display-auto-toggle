@@ -15,6 +15,7 @@
      even when the app is closed.
      -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
 
     <!--
      This permission is needed so that the power events are delivered
